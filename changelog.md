@@ -1,6 +1,6 @@
 # Changelog
 
-##Planned release
+## Planned release v1
 * Auth
   *  Auth API: https://github.com/os2display/display-api-service/pull/57 
   *  OIDC:
