@@ -21,17 +21,17 @@ authors:
 *	Datafeedmotor  
 *	Template: iframe
 *	Template: RSS
-*	Admin Ad login (brugere)
 *	Test setup
 *	Template: Kalender
 *	Bugs fixes
 *	Template: video
 
 ## Leverance pyloner/havneskærm	14.2.2022 (NB: indhold og dato forløbig, hvis muligt flytter vi mere op i tidligere leverancer)
+*	Admin Ad login (brugere)
+*	Klient Login (skærm)
 *	Template: Poster
 *	Template sparkle.io
 *	Kampagner
-*	Klient Login (skærm)
 *	Brugerstyring
 *	Delte spillelister
 *	Darkmode
