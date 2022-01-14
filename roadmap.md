@@ -1,9 +1,5 @@
----
-layout: document
-title: Roadmap
-authors: 
-  - Pernille Thorsen, perth@aarhus.dk
----
+# Roadmap
+
 ## Leverance - 6.12.2021 (leveret)
 *	Basis klient (vise indhold, én region)
 *	Basis API
