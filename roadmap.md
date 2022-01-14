@@ -17,21 +17,22 @@ authors:
 *	Schedulering/publishing slide og spilleliste API
 *	Bugs fixes	
 
-## Leverance dokk1 - 18.1.2022 
+## Leverance dokk1 - 25.1.2022 
 *	Datafeedmotor  
 *	Template: iframe
 *	Template: RSS
-*	Test setup
 *	Template: Kalender
 *	Bugs fixes
 *	Template: video
+*	Test setup
 
 ## Leverance pyloner/havneskærm	14.2.2022 (NB: indhold og dato forløbig, hvis muligt flytter vi mere op i tidligere leverancer)
 *	Admin Ad login (brugere)
 *	Klient Login (skærm)
+*	Kampagner
+*	
 *	Template: Poster
 *	Template sparkle.io
-*	Kampagner
 *	Brugerstyring
 *	Delte spillelister
 *	Darkmode
