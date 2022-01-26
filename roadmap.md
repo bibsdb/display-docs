@@ -9,11 +9,11 @@
 *	Template: slideshow
 *	Screen layouts (regioner) 
 
-## Leverance til rådhuset	- 21.12.2021 (leveret)
+## Leverance - 21.12.2021 (leveret)
 *	Schedulering/publishing slide og spilleliste API
 *	Bugs fixes	
 
-## Leverance dokk1 - 25.1.2022 
+## Leverance - 25.1.2022 (leveret)
 *	Datafeedmotor  
 *	Template: iframe
 *	Template: RSS
@@ -21,34 +21,32 @@
 *	Bugs fixes
 *	Template: video
 *	Test setup
+*	Template: Tabel
 
-## Leverance pyloner/havneskærm	14.2.2022 (NB: indhold og dato forløbig, hvis muligt flytter vi mere op i tidligere leverancer)
+## Leverance 7.2.2022 
 *	Admin Ad login (brugere)
 *	Klient Login (skærm)
 *	Kampagner
-*	
+
+## Leverance 21.2.2022
 *	Template: Poster
 *	Template sparkle.io
 *	Brugerstyring
 *	Delte spillelister
 *	Darkmode
 *	Template: infoskærm billede
-*	Dokumentation
 *	bugs fixes
 
-## Leverance MSO				1.3.2022 (NB: indhold og dato forløbig, hvis muligt flytter vi mere op i tidligere leverancer)
+## Leverance 	1.3.2022 (NB: indhold og dato forløbig, hvis muligt flytter vi mere op i tidligere leverancer)
 *	Template: Kontakter
-*	Template: Tabel
 *	Template: Manuel kalender
 *	Skærm touch
 *	Bugs fixes
-*	Missing Features(hvis økonomi)
-
-
 
 # Funktioner som ikke er planlagt
-* Manuelt login brugere (arkitektur er: https://whimsical.com/oidc-opbygning-FXTDDXjiucEagPYBHmMufR og løses nok på commandline niveau så det kun er interface som mangler)
+* Manuelt login brugere (arkitektur er: https://whimsical.com/oidc-opbygning-FXTDDXjiucEagPYBHmMufR og er løst på commandline niveau)
 * Delt indhold på tværs af installationer/kommuner
 *	Template: Datavisualisering (afventer OS2iot dataopbevaringsgrundlag)
+*	Dokumentation
 
 
