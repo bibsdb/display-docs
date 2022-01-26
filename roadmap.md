@@ -18,10 +18,10 @@
 *	Template: iframe
 *	Template: RSS
 *	Template: Kalender
-*	Bugs fixes
+*	Template: Tabel 
 *	Template: video
 *	Test setup
-*	Template: Tabel
+*	Bugs fixes
 
 ## Leverance 7.2.2022 
 *	Admin Ad login (brugere)
@@ -29,12 +29,12 @@
 *	Kampagner
 
 ## Leverance 21.2.2022
-*	Template: Poster
-*	Template sparkle.io
 *	Brugerstyring
 *	Delte spillelister
-*	Darkmode
+*	Template: Poster
+*	Template sparkle.io
 *	Template: infoskærm billede
+*	Darkmode
 *	bugs fixes
 
 ## Leverance 	1.3.2022 (NB: indhold og dato forløbig, hvis muligt flytter vi mere op i tidligere leverancer)
