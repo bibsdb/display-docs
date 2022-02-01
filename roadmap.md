@@ -27,20 +27,24 @@
 *	Admin Ad login (brugere)
 *	Klient Login (skærm)
 *	Kampagner
+*	Bug fixes
+
+## Leverance 14.2.2022
+*	Template: Poster
+*	Template sparkle.io
+*	Template: infoskærm billede
+*	bug fixes
 
 ## Leverance 21.2.2022
 *	Brugerstyring
 *	Delte spillelister
-*	Template: Poster
-*	Template sparkle.io
-*	Template: infoskærm billede
-*	Darkmode
 *	bugs fixes
 
 ## Leverance 	1.3.2022 (NB: indhold og dato forløbig, hvis muligt flytter vi mere op i tidligere leverancer)
 *	Template: Kontakter
 *	Template: Manuel kalender
 *	Skærm touch
+*	Darkmode (hvis behov for indstilling på skærm - mulighed er implementeret i relevante templates)
 *	Bugs fixes
 *	Dokumentation
 
