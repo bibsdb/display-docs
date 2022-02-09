@@ -32,23 +32,27 @@
 
 ## Leverance 14.2.2022
 *	Kampagner
-*	Template: Poster
 *	Template: infoskærm billede
 *	Bug fixes
 
-## Leverance 21.2.2022
+## Leverance 23.2.2022
 *	Brugerstyring
 *	Delte spillelister
 *	Bug fixes
 
 ## Leverance 	1.3.2022 (NB: indhold og dato forløbig, hvis muligt flytter vi mere op i tidligere leverancer)
-*	Skærm touch
+*	Template: Poster
 *	Darkmode (hvis behov for indstilling på skærm - mulighed er implementeret i relevante templates)
 *	Bugs fixes
 *	Dokumentation
 
+## Leverance 10.3.2022
+*	Skærm touch
+*	Dokumentation
+*	Bug fixes
+
 # Funktioner som ikke er planlagt
-* Manuelt login interface for brugere (arkitektur er: https://whimsical.com/oidc-opbygning-FXTDDXjiucEagPYBHmMufR og er løst på commandline niveau)
+* Manuel oprettelse af brugere i interface (arkitektur er: https://whimsical.com/oidc-opbygning-FXTDDXjiucEagPYBHmMufR og er løst på commandline niveau)
 * Delt indhold på tværs af installationer/kommuner
 *	Template: Datavisualisering (afventer OS2iot dataopbevaringsgrundlag)
 
