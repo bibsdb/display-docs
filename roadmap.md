@@ -23,16 +23,17 @@
 *	Test setup
 *	Bugs fixes
 
-## Leverance 10.2.2022 
+## Leverance 10.2.2022 (leveret)
 *	Admin Ad login (brugere)
 *	Klient Login (skærm)
 *	Template sparkle.io
 *	Template: Kontakter
 *	Bug fixes
+*	Template: infoskærm billede (NB: løst som tema)
+*	Kampagner (API og Admin)
 
 ## Leverance 14.2.2022
-*	Kampagner
-*	Template: infoskærm billede
+*	Kampagner (klient)
 *	Bug fixes
 
 ## Leverance 23.2.2022
