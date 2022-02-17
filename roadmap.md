@@ -32,8 +32,8 @@
 *	Template: infoskærm billede (NB: løst som tema)
 *	Kampagner (API og Admin)
 
-## Leverance 14.2.2022
-*	Kampagner (klient)
+## Leverance 14.2.2022 (leveret)
+*	Kampagner (klient) 
 *	Bug fixes
 
 ## Leverance 23.2.2022
