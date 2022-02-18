@@ -1,4 +1,4 @@
-# display-docs
+# Display-docs
 Documentation for OS2Display version 2
 
 ```mermaid
@@ -21,5 +21,5 @@ This is the output screen where the content will be displayed.
 * Browser refresh will continue the playlist where it is but get now content
 
 
-## Changelog
+# Changelog
 [changelog.md](changelog.md)
