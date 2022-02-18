@@ -36,20 +36,17 @@
 *	Kampagner (klient) 
 *	Bug fixes
 
-## Leverance 23.2.2022
+## Leverance 28.3.2022
 *	Brugerstyring
 *	Delte spillelister
+*	Template: Poster
 *	Bug fixes
 
-## Leverance 	1.3.2022 (NB: indhold og dato forløbig, hvis muligt flytter vi mere op i tidligere leverancer)
-*	Template: Poster
+## Leverance 	15.3.2022 
 *	Darkmode (hvis behov for indstilling på skærm - mulighed er implementeret i relevante templates)
 *	Bugs fixes
 *	Dokumentation
-
-## Leverance 10.3.2022
 *	Skærm touch
-*	Dokumentation
 *	Bug fixes
 
 # Funktioner som ikke er planlagt
