@@ -5,6 +5,7 @@ Documentation for OS2Display version 2
 flowchart LR
     A[Admin client] -->B(API)
     B --> C(Screen client)
+```
     
 ## API
 This is the backbone of the system that connects the conponents together. 
