@@ -36,7 +36,7 @@
 *	Kampagner (klient) 
 *	Bug fixes
 
-## Leverance 28.3.2022
+## Leverance 1.3.2022
 *	Brugerstyring
 *	Delte spillelister
 *	Template: Poster
