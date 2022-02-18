@@ -19,7 +19,6 @@ This is the output screen where the content will be displayed.
 ### Important nodes
 * Scheduling and campaigns will be activated when a)their start time has been reached and b)playlists have reached end, to make sure there will be a nice transit
 * Browser refresh will continue the playlist where it is but get now content
-* 
 
 
 ## Changelog
