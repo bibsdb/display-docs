@@ -3,8 +3,8 @@ Documentation for OS2Display version 2
 
 ```mermaid
 flowchart LR
-    A[Admin client] -->B(API)
-    B --> C(Screen client)
+    A[Admin client] <-->B(API)
+    B <--> C(Screen client)
 ```
     
 ## API
