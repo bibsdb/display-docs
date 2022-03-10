@@ -12,6 +12,7 @@ This is the backbone of the system that connects the conponents together.
 
 ## Admin client
 This is where content, connections and screens are created and connected. 
+<a href="https://github.com/os2display/display-admin-client#system-description">Go to description of admin elements</a>
 
 ## Screen client 
 This is the output screen where the content will be displayed.
