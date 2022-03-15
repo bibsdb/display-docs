@@ -4,7 +4,7 @@
 - LAMP stack.
 
 
-## development installation
+## Development installation
  - run composer
  - get files
 
