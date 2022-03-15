@@ -50,6 +50,7 @@
 
 ## Leverance 8.4.2022
 *	Darkmode (hvis behov for indstilling på skærm - mulighed er implementeret i relevante templates)
+*	Rejseplan template
 
 # Funktioner som ikke er planlagt
 * Manuel oprettelse af brugere i interface (arkitektur er: https://whimsical.com/oidc-opbygning-FXTDDXjiucEagPYBHmMufR og er løst på commandline niveau)
