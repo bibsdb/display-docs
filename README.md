@@ -7,7 +7,7 @@ flowchart LR
     B <--> C(Screen client)
 ```
     
-## API
+## API service
 This is the backbone of the system that connects the conponents together. 
 
 ## Admin client
