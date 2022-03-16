@@ -10,3 +10,8 @@ that should be entered on the given screen in the admin.
 ## Campaigns
 
 ## Touch
+
+
+## Event Model
+
+![Event model](assets/client-event-model.png)
