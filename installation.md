@@ -1,12 +1,7 @@
 # Installation
 
 ## Technical demands 
-- LAMP stack.
 
-
-## Development installation
- - run composer
- - get files
-
+TODO: Describe the stack
 
 ## Production installation
