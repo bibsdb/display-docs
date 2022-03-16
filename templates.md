@@ -20,6 +20,8 @@ An example of the required .json files is [Image text](https://github.com/os2dis
 * A `*-schema.json` file that can be used to validate the data in content.
 * A `*-content-example.json` file that supplies an example of content for the template.
 
+See [https://github.com/os2display/display-templates](https://github.com/os2display/display-templates) for how to add a new template to the repository.
+
 ### The component
 
 A component will be created like below
