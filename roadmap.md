@@ -55,7 +55,7 @@
 # Funktioner som ikke er planlagt
 * Manuel oprettelse af brugere i interface (arkitektur er: https://whimsical.com/oidc-opbygning-FXTDDXjiucEagPYBHmMufR og er løst på commandline niveau)
 * Delt indhold på tværs af installationer/kommuner
-*	Template: Datavisualisering (afventer OS2iot dataopbevaringsgrundlag)
+* Template: Datavisualisering (afventer OS2iot dataopbevaringsgrundlag)
 
 
 
