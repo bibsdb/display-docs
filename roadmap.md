@@ -41,9 +41,13 @@
 *	Template: Poster
 *	Bug fixes
 
-## Leverance 28.3.2022 
-*	Delte spillelister
+## Leverance 22-3-2022 (leveret)
+*	Delte spillelister (admin)
 *	Bugs fixes
+*	Dokumentation
+
+## Leverance 28.3.2022 
+*	Delte spillelister (API+screen)
 *	Dokumentation
 *	Skærm touch
 *	Bug fixes
@@ -51,6 +55,7 @@
 ## Leverance 8.4.2022
 *	Darkmode (hvis behov for indstilling på skærm - mulighed er implementeret i relevante templates)
 *	Rejseplan template
+*	Dokumentation
 
 # Funktioner som ikke er planlagt
 * Manuel oprettelse af brugere i interface (arkitektur er: https://whimsical.com/oidc-opbygning-FXTDDXjiucEagPYBHmMufR og er løst på commandline niveau)
