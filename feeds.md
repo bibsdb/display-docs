@@ -30,4 +30,6 @@ bin/console app:feed:create-feed-source 01FYRMSGGHG4VXS3Z0WACG6BX8
 
 ## Remove a Feed Source
 
-TODO
+```sh
+bin/console app:feed:remove-feed-source 01FYRMSGGHG4VXS3Z0WACG6BX8
+```
