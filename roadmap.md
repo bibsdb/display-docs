@@ -46,15 +46,18 @@
 *	Bugs fixes
 *	Dokumentation
 
-## Leverance 28.3.2022 
-*	Delte spillelister (API+screen)
-*	Dokumentation
+## Leverance 20.4.2022
 *	Skærm touch
 *	Bug fixes
 
-## Leverance 8.4.2022
+## Leverance 28.4.2022 
+*	Delte spillelister (API+screen)
+*	Dokumentation
+
+## Leverance 4.5.2022
 *	Darkmode (hvis behov for indstilling på skærm - mulighed er implementeret i relevante templates)
 *	Rejseplan template
+*	Bug fixes
 *	Dokumentation
 
 # Funktioner som ikke er planlagt
