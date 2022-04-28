@@ -60,8 +60,7 @@ flowchart LR
 This is the main component of the system. All content is created/retrieved through api calls to the API service.
 The API service is a [Symfony](https://symfony.com/) project built with [API Platform](https://api-platform.com/).
 See [api-service.md](api-service.md) for further descriptions.
-
-@TODO: Gather information about the api service in this repo.
+See [security.md](security.md) for further description of the security setup.
 
 ## Admin
 
@@ -70,15 +69,11 @@ This is where content, connections and screens are created and connected.
 The admin is built with [React](https://reactjs.org/).
 See [admin.md](admin.md) for further descriptions.
 
-@TODO: Gather information about the admin in this repo.
-
 ## Client 
 
 This is the output screen where the content will be displayed.
 The screen client is built with [React](https://reactjs.org/).
 See [client.md](client.md) for further descriptions.
-
-@TODO: Gather information about the client in this repo.
 
 ### Important nodes
 
@@ -93,9 +88,10 @@ to ensure proper transitions.
 
 See [development.md](development.md) for a description of how to make changes to the project.
 
-## Templates
+## Templates and Screen Layouts
 
 See [templates.md](templates.md) for a description of how templates work and how to make new.
+See [layouts.md](layouts.md) for a description of how layouts work and how to make new.
 
 ## Feeds
 

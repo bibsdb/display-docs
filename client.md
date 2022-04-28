@@ -1,6 +1,6 @@
 # Client
 
-The client is the player of the content. This will display the content that is bound to the given screen.
+The client is the content player. This will display the content that is bound to the given screen.
 
 ## Authentication
 
