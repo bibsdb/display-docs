@@ -41,21 +41,17 @@
 *	Template: Poster
 *	Bug fixes
 
-## Leverance 22-3-2022 (leveret)
+## Leverance 22.3.2022 (leveret)
 *	Delte spillelister (admin)
 *	Bugs fixes
 *	Dokumentation
 
-## Leverance 20.4.2022
+## Leverance 3.5.2022
 *	Skærm touch
 *	Bug fixes
-
-## Leverance 28.4.2022 
 *	Delte spillelister (API+screen)
 *	Dokumentation
-
-## Leverance 4.5.2022
-*	Darkmode (hvis behov for indstilling på skærm - mulighed er implementeret i relevante templates)
+*	Darkmode 
 *	Rejseplan template
 *	Bug fixes
 *	Dokumentation
