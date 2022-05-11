@@ -96,3 +96,7 @@ See [layouts.md](layouts.md) for a description of how layouts work and how to ma
 ## Feeds
 
 See [feeds.md](feeds.md) for a description of how feeds are set up.
+
+## Hosting
+
+See [hosting.md](hosting.md) for hosting instructions.
