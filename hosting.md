@@ -6,7 +6,7 @@ To host the API you will need to be able to host a Symfony application with a Ma
 To host the Display Client and the Admin Client you need to be able to host standard react applications. You should be familiar with [Create React App - Deployment](https://create-react-app.dev/docs/deployment/)
 
 ## Docker based hosting
-Docker images are build autmatically for all three apps by Github Actions. They are tagged as follows:
+Docker images are built automatically for all three apps by Github Actions. They are tagged as follows:
 - `latest` most recent tag on main branch
 - `x.y.z` version tag on main branch
 - `develop` most recent tag on develop
@@ -17,11 +17,11 @@ The images are published to as:
 - [itkdev/os2display-api-service](https://hub.docker.com/repository/docker/itkdev/os2display-api-service) the PHP container with the Symfony application
 - [itkdev/os2display-api-service-nginx](https://hub.docker.com/repository/docker/itkdev/os2display-api-service-nginx) a nginx container to host as the web sever
 
-An example of how to host to images can be seen at https://github.com/os2display/display-docker-server
+An example of how to host the images can be seen at https://github.com/os2display/display-docker-server
 
 
 ## General Hosting
-If you don't want to use the pre-buildt images, or have other hosting requirements these are the general instructions.
+If you don't want to use the pre-built images, or have other hosting requirements these are the general instructions.
 
 ### Api
 The Symfony application expects to be hosted at the root of your application domain. E.g. http://demo.os2display.dk/
@@ -116,7 +116,7 @@ And adapt the values in `release.json` to match your build (this is build automa
 All screen clients will check `releaseTimestamp` value at an interval and reload themselves if they see a new version. 
 
 ### Admin Client
-This is the client the users acces to create and schedule content. Simply check out the repository and run `RUN yarn install && yarn build`. This will create a production build. The Admin Client expects to be hosted at `/admin`.
+This is the client the users accesses to create and schedule content. Simply check out the repository and run `RUN yarn install && yarn build`. This will create a production build. The Admin Client expects to be hosted at `/admin`.
 
 After building you should create a `config.json` file and a `access-config.json` file. When booting the client will lock for these at `/client/config.json` and `/client/access-config.json` respectivly. You can create them by copying the examples files in `/public`.
 
