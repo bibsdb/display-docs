@@ -46,7 +46,7 @@
 *	Bugs fixes
 *	Dokumentation
 
-## Leverance 3.5.2022
+## Leverance 3.5.2022 (leveret)
 *	Skærm touch
 *	Bug fixes
 *	Delte spillelister (API+screen)
