@@ -72,6 +72,10 @@ A screen can be configured to change color scheme (light/dark) at sunset and sun
 To support this a class ("color-scheme-dark") is set on the html root when dark mode
 is active. See https://github.com/os2display/display-templates/blob/develop/src/GlobalStyles.js#L170.
 
+### Video
+
+When using the video template the video will not play in the client unless the autoplay flag is enabled in the chrome configuration.
+
 ### The admin description.
 
 To populate the slide with data an admin form is needed. 
