@@ -74,7 +74,7 @@ is active. See https://github.com/os2display/display-templates/blob/develop/src/
 
 ### Video
 
-When using the video template the video will not start in the client unless there is set, in chrome settings, that it is okay to play videoes. The default setting is blocking the video to be played.
+When using the video template the video will not play in the client unless the autoplay flag is enabled in the chrome configuration.
 
 ### The admin description.
 
