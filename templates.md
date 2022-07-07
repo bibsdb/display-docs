@@ -72,13 +72,24 @@ A screen can be configured to change color scheme (light/dark) at sunset and sun
 To support this a class ("color-scheme-dark") is set on the html root when dark mode
 is active. See https://github.com/os2display/display-templates/blob/develop/src/GlobalStyles.js#L170.
 
+### Screen orientation
+
+To handle screens in both Landscape and Portrait mode it is preferred to use the orientation media-query.
+
+Styling for Portrait can be placed inside a query like this:
+
+```css
+@media (orientation: portrait) { ... }
+```
+
+
 ### Video
 
 When using the video template the video will not play in the client unless the autoplay flag is enabled in the chrome configuration.
 
 ### The admin description.
 
-To populate the slide with data an admin form is needed. 
+To populate the slide with data an admin form is needed.
 
 This is configured in a json file:
 
