@@ -74,7 +74,7 @@ is active. See https://github.com/os2display/display-templates/blob/develop/src/
 
 ### Screen orientation
 
-To handle screens in both Landscape and Portrait mode it is preffered to use the orientation media-query.
+To handle screens in both Landscape and Portrait mode it is preferred to use the orientation media-query.
 
 Styling for Portrait can be placed inside a query like this:
 
