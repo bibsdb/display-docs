@@ -1,6 +1,10 @@
 # Changelog
 
-## 9.9.2022
+## 27.10.2022
+* Grid update
+* Link correction in Gant
+
+## 28.9.2022
 * Anmeldelse vertikal (fixet med vurdering af skærm orientering)
 * video mute
 * Plakat ændringer (dato er ændret . gratis + kr. tilføjes i kilde i stedet, samt link kan allerede ændres i tekst)
