@@ -1,5 +1,20 @@
 # Changelog
 
+## Unreleased
+
+### added
+* Docker update. https://github.com/os2display/display-api-service/pull/122 and https://github.com/os2display/display-admin-client/pull/169
+* Fixtures update. https://github.com/os2display/display-api-service/pull/123
+* Create better errorhandling for KOBA. https://github.com/os2display/display-api-service/pull/125
+* Changed command for updating screen layouts. https://github.com/os2display/display-api-service/pull/121
+
+ 
+### fixed
+* Make get theme available for editors. https://github.com/os2display/display-api-service/pull/124
+* Search in screens. https://github.com/os2display/display-admin-client/pull/172
+* Page 1 on delete. https://github.com/os2display/display-admin-client/pull/171
+* Correct link in gant. https://github.com/os2display/display-admin-client/pull/170
+
 ## 27.10.2022
 * Grid update
 * Link correction in Gant
