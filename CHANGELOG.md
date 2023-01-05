@@ -1,6 +1,6 @@
 # Changelog
 
-## 2023.01.05
+## 2023-01-05
 
 * Released api `1.2.0`. See [changelog](https://github.com/os2display/display-api-service/blob/develop/CHANGELOG.md#120---2023-01-05).
 * Released admin `1.2.0`. See [changelog](https://github.com/os2display/display-admin-client/blob/develop/CHANGELOG.md#120---2023-01-05).
