@@ -2,16 +2,17 @@
 
 ## 2023-02-08
 
-* Released api `1.2.2`. See [changelog](https://github.com/os2display/display-api-service/blob/1.2.2/CHANGELOG.md#122---2023-02-08).
-* Released admin `1.2.2`. See [changelog](https://github.com/os2display/display-admin-client/blob/1.2.2/CHANGELOG.md#122---2023-02-08).
+* Released api `1.2.2`. See [changelog](https://github.com/os2display/display-api-service/blob/develop/CHANGELOG.md#122---2023-02-08).
+* Released admin `1.2.2`. See [changelog](https://github.com/os2display/display-admin-client/blob/develop/CHANGELOG.md#122---2023-02-08).
+* Released templates `1.2.2`. See [changelog](https://github.com/os2display/display-templates/blob/develop/CHANGELOG.md#122---2023-02-08).
 
 ## 2023-02-02
 
-* Released api `1.2.1`. See [changelog](https://github.com/os2display/display-api-service/blob/1.2.2/CHANGELOG.md#121---2023-02-02).
+* Released api `1.2.1`. See [changelog](https://github.com/os2display/display-api-service/blob/develop/CHANGELOG.md#121---2023-02-02).
 
 ## 2023-01-13
 
-* Released admin `1.2.1`. See [changelog](https://github.com/os2display/display-admin-client/blob/1.2.2/CHANGELOG.md#121---2023-01-13).
+* Released admin `1.2.1`. See [changelog](https://github.com/os2display/display-admin-client/blob/develop/CHANGELOG.md#121---2023-01-13).
 
 ## 2023-01-05
 
