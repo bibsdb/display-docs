@@ -13,6 +13,7 @@
 ## 2023-01-13
 
 * Released admin `1.2.1`. See [changelog](https://github.com/os2display/display-admin-client/blob/develop/CHANGELOG.md#121---2023-01-13).
+* Released cient `1.2.1`. See [changelog](https://github.com/os2display/display-client/blob/develop/CHANGELOG.md#121---2023-01-13).
 
 ## 2023-01-05
 
