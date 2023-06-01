@@ -1,5 +1,9 @@
 # Changelog
 
+## 2023-06-01
+
+* Released templates `1.2.6`. See [changelog](https://github.com/os2display/display-templates/blob/develop/CHANGELOG.md#126---2023-06-01).
+
 ## 2023-03-24
 
 * Released api `1.2.6`. See [changelog](https://github.com/os2display/display-api-service/blob/develop/CHANGELOG.md#126---2023-03-24).
