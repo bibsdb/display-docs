@@ -1,3 +1,10 @@
+---
+layout: default
+title: Feeds
+parent: Content Structure
+nav_order: 3
+---
+
 # Feeds
 
 The API supports binding a feed to a slide. This is supported in the admin with the FeedSelector component.

@@ -1,3 +1,9 @@
+---
+title: Changelog
+layout: default
+nav_order: 5
+---
+
 # Changelog
 
 ## 2023-06-01

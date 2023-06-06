@@ -1,3 +1,10 @@
+---
+layout: default
+title: Client (Screen) 
+parent: Components
+nav_order: 3
+---
+
 # Client
 
 The client is the content player. This will display the content that is bound to the given screen.
@@ -25,6 +32,6 @@ See [https://github.com/os2display/display-client/blob/develop/src/region.js](ht
 
 ## Event Model
 
-![Event model](assets/client-event-model.png)
+![Event model](../assets/client-event-model.png)
 
 TODO: Make sure this drawing is up-to-date.

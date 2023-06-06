@@ -1,3 +1,10 @@
+---
+title: Development
+layout: default
+nav_order: 4
+has_children: false
+---
+
 # Development
 
 To work on the complete system with API, admin, client and templates each project's docker-compose file should be started.

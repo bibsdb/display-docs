@@ -1,3 +1,10 @@
+---
+layout: default
+title: Layouts
+parent: Content Structure
+nav_order: 1
+---
+
 # Layouts
 
 Layouts are the screen settings, that defines how a screen is divided into different regions.

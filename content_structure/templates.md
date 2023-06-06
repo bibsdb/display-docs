@@ -1,3 +1,10 @@
+---
+layout: default
+title: Templates
+parent: Content Structure
+nav_order: 2
+---
+
 # Templates
 
 See [https://github.com/os2display/display-templates](https://github.com/os2display/display-templates) for core templates.
