@@ -1,0 +1,19 @@
+title: OS2display Documentation
+description: Documentation for using, hosting and developing the OS2display project
+theme: just-the-docs
+
+logo: "/assets/site/logo.svg"
+favicon_ico: "/assets/site/favicon.ico"
+
+color_scheme: os2display
+
+aux_links:
+  "github.com/os2display":
+      - "//github.com/os2display"
+  "os2.eu/os2display":
+    - "www.os2.eu/os2display"
+
+mermaid:
+  # Version of mermaid library
+  # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
+  version: "9.1.3"
