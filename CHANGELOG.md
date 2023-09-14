@@ -6,6 +6,12 @@ nav_order: 5
 
 # Changelog
 
+## 2023-09-14
+
+- Released api `1.4.0`. See [changelog](https://github.com/os2display/display-api-service/blob/develop/CHANGELOG.md#140---2023-09-14)
+- Released admin `1.4.5`. See [changelog](https://github.com/os2display/display-admin-client/blob/develop/CHANGELOG.md#140---2023-09-14)
+- Released client `1.3.4`. See [changelog](https://github.com/os2display/display-client/blob/develop/CHANGELOG.md#135---2023-09-14)
+
 ## 2023-07-13
 
 - Released client `1.3.4`. See [changelog](https://github.com/os2display/display-client/blob/develop/CHANGELOG.md#134---2023-07-13)
