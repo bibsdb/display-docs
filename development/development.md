@@ -24,6 +24,8 @@ OS2Display consists of 4 parts:
 3. Client: <https://github.com/os2display/display-client>
 4. Templates: <https://github.com/os2display/display-templates>
 
+The guide below will start all parts and connect them via apropriate configuration.
+
 ```shell
 mkdir os2display
 cd os2display
@@ -55,7 +57,7 @@ docker compose --project-name displayapiservice exec phpfpm bin/console app:user
 # Create editor user
 docker compose --project-name displayapiservice exec phpfpm bin/console app:user:add editor@example.com password Editor editor ABC
 # Generate JWT kay pair
-docker compose --project-name displayapiservice exec phpfpm bin/console lexik:jwt:generate-keypair;
+docker compose --project-name displayapiservice exec phpfpm bin/console lexik:jwt:generate-keypair
 
 cd
 ```
@@ -107,7 +109,6 @@ cat public/example_config.json | docker run --rm --interactive efrecon/jq:1.7 --
 docker compose up --detach
 
 docker compose run --rm node yarn install
-docker compose run --rm node bash -c 'cd src/redux/api && npm install && npm start'
 
 open "http://$(docker compose port nginx 8080)/admin"
 
@@ -131,10 +132,16 @@ cat public/example_release.json | docker run --rm --interactive efrecon/jq:1.7 '
 
 open "http://$(docker compose port nginx 8080)"
 
-open "http://$(docker compose --project-name display-admin-client port nginx 8080)/admin/screen/list"
-
 cd
 ```
+
+The client shows an activation coda that must be entered on a screen in the admin interface:
+
+```shell
+open "http://$(docker compose --project-name display-admin-client port nginx 8080)/admin/screen/list"
+```
+
+After connecting the client to a screen, the client should start displaying content.
 
 ## Templates
 
