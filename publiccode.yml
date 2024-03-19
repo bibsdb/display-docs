@@ -15,7 +15,7 @@ developmentStatus: stable
 softwareType: "standalone/other"
 
 description:
-  en:
+  da:
     localisedName: os2display   # Optional
     shortDescription: >
           OS2display er et API, administration og skærm-klient, som gør det muligt at oprette indhold og vise det på skærme. 
