@@ -7,16 +7,31 @@ nav_order: 5
 
 # Testing Guide
 
-## Preamble
+## Overview
 
 This guide explains how to test the different parts of the system. This can be used to confirm that the system works
 following upgrades, new features, etc.
 
-## Test 1 - Basic use
+The following test scenarios are explained:
+
+* [T1 Basic use](#t1-basic-use)
+* [T2 Templates](#t2-templates)
+* [T3 Publishing and planning](#t3-publishing-and-planning)
+* [T4 Themes](#t4-themes)
+* [T5 Screen layouts](#t5-screen-layouts)
+* [T6 External users](#t6-external-users)
+* [T7 Campaigns](#t7-campaigns)
+* [T8 Shared playlists](#t8-shared-playlists)
+
+---
+
+## T1 Basic use
 
 ### Description
 
-Tests that the user can log in, create content and show the content on a screen.
+This guide tests that the user can log in, create content and show the content on a screen.
+The user will create a slide, a playlist and a screen and then make the slide be displayed
+on the screen.
 
 This guide requires a user that has the `ROLE_ADMIN` role.
 
@@ -69,3 +84,75 @@ This guide requires a user that has the `ROLE_ADMIN` role.
 * Check the content is displayed in the screen
   * Open the screen tab again at `/screen`.
   * See that the slide is displayed.
+
+---
+
+## T2 Templates
+
+### Description
+
+This guide tests that the different supported templates can be created.
+
+### Steps
+
+---
+
+## T3 Publishing and planning
+
+### Description
+
+This guide tests the different publishing and planning options available.
+
+### Steps
+
+---
+
+## T4 Themes
+
+### Description
+
+This guide tests setting up a theme and applying it to a slide.
+
+### Steps
+
+---
+
+## T5 Screen layouts
+
+### Description
+
+This guide tests setting up screens with different layouts.
+
+### Steps
+
+---
+
+## T6 External users
+
+### Description
+
+This guide tests inviting external users to the system using the OIDC external setup.
+
+### Steps
+
+---
+
+## T7 Campaigns
+
+### Description
+
+This guide tests applying campaigns to screens and screen groups.
+
+### Steps
+
+---
+
+## T8 Shared playlists
+
+### Description
+
+This guide tests sharing playlists across tenants.
+
+### Steps
+
+---
