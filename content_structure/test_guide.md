@@ -269,7 +269,25 @@ See https://github.com/os2display/display-templates/tree/develop/src/themes for 
 
 This guide tests setting up screens with different layouts.
 
+A screen can have different layouts. It can be split into different regions.
+
+A special case of screen layouts is "touch-buttons" type for a region. See
+https://github.com/os2display/display-templates/blob/develop/src/screen-layouts/touch-template.json#L32. This
+converts slides shown in the screen region to buttons that display the slide when pressed. The button text is set
+in the slide in the section "Touch region". This requires that touch button is enabled in the installation.
+
 ### Steps
+
+* NB! This guide assumes that the layouts in
+  https://github.com/os2display/display-templates/tree/develop/src/screen-layouts are installed in the test installation.
+* Create a screen.
+* Fill "Skærmens navn".
+* Select "2-delt" in "Skærmens layout".
+* In "Spillelister tilknyttet regionen" two regions should appear.
+* Select different playlists for the two regions.
+* Save the screen.
+* Open the screen in `/client` as described in T1.
+* See that the screen is split in the middle and displays the playlists selected.
 
 ---
 
