@@ -299,15 +299,51 @@ This guide tests inviting external users to the system using the OIDC external s
 
 ### Steps
 
+
+
 ---
 
 ## T7 Campaigns
 
 ### Description
 
-This guide tests applying campaigns to screens and screen groups.
+This guide tests applying campaigns to screens and screen groups. Screens can be added to a screen group.
+
+Consider the following scenario: A group of screens normally contains some standard content. For one week they should
+show some different content (e.g. a festival for one week). Instead of manually removing the normal content and adding
+different content when the week starts and manually change back when the week is done, a campaign can be set up.
+The campaign will take over the screen for the selected period, and yield control when the period does not apply.
+
+The campaign is a list a slides to show, start and end dates, and a list of screens or screen groups it should
+apply to.
+
+Please note that a campaign applies the full area of a screen. It ignores the layout of the screen and applies as if
+the screen is running the full screen layout.
 
 ### Steps
+
+* Create a slide (SLIDE_1), playlist and screen (SCREEN_1). This should contain default content. See T1. 
+* Create another slide (SLIDE_2) that is different from the first.
+* Campaign
+  * Navigate to "Kampagner" (`/admin/campaign/list`).
+  * Click "Opret ny kampagne" (`/admin/campaign/create`).
+  * Choose a name and description.
+  * Add SLIDE_2 in "Tilknyttede slides".
+  * Add SCREEN_1 in "Skærme".
+  * Select the campaign period in "Udgivelse".
+  * Save the campaign.
+  * Test that the campaign applies/does not apply to SCREEN_1 according to the campaign period select.
+    * See T1 for setting up the screen SCREEN_1.
+* Screen group
+  * Create a screen group (GROUP_1) under "Grupper" (`/admin/group/list`).
+  * Create a new screen (SCREEN_2)
+  * Select GROUP_1 under "Grupper".
+  * Save the screen.
+  * Edit the campaign created below
+  * Set GROUP_1 in "Skærmgrupper".
+  * Save the campaign
+  * Test that SCREEN_2 displays the campaign.
+    * See T1 for setting up the screen.
 
 ---
 
@@ -317,6 +353,26 @@ This guide tests applying campaigns to screens and screen groups.
 
 This guide tests sharing playlists across tenants.
 
+The system consists of different tenants and content is not shared between the different tenants.
+
+The exception to the rule is shared playlists.
+A playlist can be configured to be shared between tenants.
+When it is shared it can be displayed in another tenant, but not edited.
+
 ### Steps
+
+* NB! This guide assumes that more than one tenant is created the tenant and that the tester has access to both tenants.
+* Create slide, playlist in one tenant (TENANT_1).
+* Edit the playlist and select the other tenant (TENANT_2) in "Del denne spilleliste".
+* Save the playlist.
+* Change tenant in the top left corner to TENANT_2.
+* Navigate to "Delte spillelister" (`/admin/shared/list`).
+* See that the playlist is in the list.
+* Create a screen in TENANT_2.
+* Select "fuld skærm" in "Layout".
+* In "Spillelister tilknyttet regionen" tick the box "Vis delte spillelister".
+* Attach the shared playlist.
+* Save the screen.
+* Test that the playlist is displayed on the screen. See T1 for how to activate the screen.
 
 ---
