@@ -151,12 +151,19 @@ have been added to the installation.
   * Open the slide again.
   * Test different layouts and settings. See the effects in the preview.
 * "Kontakter"
+  * TODO
 * "Plakat"
+  * TODO
 * "Rejseplanen"
+  * TODO
 * "RSS"
+  * TODO
 * "Slideshow"
+  * TODO
 * "Tabel"
+  * TODO
 * "Video"
+  * TODO
 * Follow the steps from T1 for adding the slides to a playlist and screen.
 * See that the templates display correctly.
 
@@ -228,7 +235,31 @@ An example of planning can be "every monday at 12:00" with a duration of 1 hour.
 
 This guide tests setting up a theme and applying it to a slide.
 
+A theme modifies that look of slides. A theme can also supply a logo to slides.
+
+Creating a theme requires that the user understands css.
+See https://github.com/os2display/display-templates/tree/develop/src/themes for examples of themes and description.
+
 ### Steps
+
+* Navigate to "Temaer" (`/admin/themes/list`).
+* Click "Opret nyt tema".
+* Fill "Temaets navn", "Temaets beskrivelse".
+* Fill "Temaets CSS" med
+  ```css
+  #SLIDE_ID h1 {
+    color: red;
+  }
+  ```
+* Upload a logo in "Tilføj logo til temaet".
+* Create a slide with the template "Billede og tekst". See T1.
+* Edit the slide and set "Slidets tema".
+* See that the theme colors the "Overskrift på slide" red in the preview.
+* Select "Vis logo fra tema".
+* Change "Logostørrelse", "Logoposition" and "Margin om logo".
+* See that the logo is added to the slide in the preview.
+* Click "Gem slide".
+* Test that the theme applies for the slide at `/client`.
 
 ---
 
