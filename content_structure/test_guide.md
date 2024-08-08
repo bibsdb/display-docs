@@ -92,8 +92,71 @@ This guide requires a user that has the `ROLE_ADMIN` role.
 ### Description
 
 This guide tests that the different supported templates can be created.
+This guide assumes that all templates from [https://github.com/os2display/display-templates/]()
+have been added to the installation.
 
 ### Steps
+
+* "Anmeldelse" (expected result [anmeldelse.png](../assets/templates/anmeldelse.png))
+  * Navigate to `/admin/slide/create`.
+  * Fill "Slidets navn".
+  * Select "Anmeldelse" from "Vælg en skabelon til dit slide".
+  * Fill "Teksten til anmeldelsen". Use different kinds of formatting available in the test editor.
+  * Upload an image under "Billede".
+  * Fill "Forfattertekst"
+  * Upload an image under "Billede".
+  * Click "Gem slide"
+* "Billede og tekst" (expected result [billede-og-tekst.png](../assets/templates/billede-og-tekst.png))
+  * Navigate to `/admin/slide/create`.
+  * Fill "Slidets navn".
+  * Select "Billede og tekst" from "Vælg en skabelon til dit slide".
+  * Fill content into the "Indhold" fields. Start with a single image in "Billeder".
+  * Test different setting under "Opsætning".
+  * To see the result of the different settings use the "Åben preview i fuld skærm".
+  * Add an extra image under "Billeder".
+  * Open the preview to see that the background image changes.
+  * Enable "Deaktiver fade ved flere billeder" and see in the preview that the fade effect gone between images.
+  * NB! The settings regarding logo are dependent on setting a theme with a theme logo. This will be tested in T4.
+  * Click "Gem slide".
+* "Iframe" (expected result [iframe.png](../assets/templates/iframe.png))
+  * Navigate to `/admin/slide/create`.
+  * Fill "Slidets navn".
+  * Select "Iframe" from "Vælg en skabelon til dit slide".
+  * Fill "URL til iframe". E.g. https://www.os2.eu/.
+  * Open the preview and see that the webpage pointed to is shown in the slide.
+  * Click "Gem slide".
+* "Instagram feed"
+  * NB! This template is dependent on a feed source supplying "instagram" data being installed for the selected tenant.
+  * NB! The feed will not supply data until after the slide has been saved, so it cannot be previewed before saving the slide.
+  * Navigate to `/admin/slide/create`.
+  * Fill "Slidets navn".
+  * Select "Instagram feed" from "Vælg en skabelon til dit slide".
+  * Select the feed source as "Vælg datakilde" and the feed under "Vælg feed".
+  * Select a duration in "Varighed pr. billede/video (i sekunder)".
+  * Fill "Hashtag-tekst".
+  * Click "Gem slide".
+* "Kalender"
+  * NB! This guide assumes that a feed source supplying "calendar" data has been installed for the selected tenant.
+  * NB! The feed will not supply data until after the slide has been saved, so it cannot be previewed before saving the slide.
+  * Navigate to `/admin/slide/create`.
+  * Fill "Slidets navn".
+  * Select "Kalender" from "Vælg en skabelon til dit slide".
+  * Select the feed source as "Vælg datakilde" and the feed under "Vælg feed".
+  * Select a resource in "Vælg resurser".
+  * This template support different layouts. Try different options under "Vælg layout".
+  * Some of the options under "Konfigurér slide" only apply to specific layouts.
+  * Click "Gem slide".
+  * Open the slide again.
+  * Test different layouts and settings. See the effects in the preview.
+* "Kontakter"
+* "Plakat"
+* "Rejseplanen"
+* "RSS"
+* "Slideshow"
+* "Tabel"
+* "Video"
+* Follow the steps from T1 for adding the slides to a playlist and screen.
+* See that the templates display correctly.
 
 ---
 
