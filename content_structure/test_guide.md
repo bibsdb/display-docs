@@ -12,6 +12,8 @@ nav_order: 5
 This guide explains how to test the different parts of the system. This can be used to confirm that the system works
 following upgrades, new features, etc.
 
+This guide can also be used as an introduction to how the system can be used.
+
 The following test scenarios are explained:
 
 * [T1 Basic use](#t1-basic-use)
@@ -297,9 +299,35 @@ in the slide in the section "Touch region". This requires that touch button is e
 
 This guide tests inviting external users to the system using the OIDC external setup.
 
+This guide assumes that the test installation has been configured to allow external users through OIDC login.
+
+An external user can be allowed to create content in a tenant by using an activation code, created by an admin user
+in the given tenant.
+
+In the following two different users will take part:
+
+* The admin user that has access to create activation code for a given tenant (USER_ADMIN).
+* The external user that should be allowed to work in the tenant (USER_EXTERNAL).
+
 ### Steps
 
+* Log in as USER_ADMIN in a tenant using "Medarbejder" login.
+* Navigate to "Aktiveringskoder" (`/admin/activation/list`).
+* Click "Opret ny".
+* Choose a name for the external user when they log in.
+* Choose the role for the user: "Ekstern bruger"
+* Save the activation code.
+* You should see a list of created activation code.
+* Copy the activation code.
+* Log out of the system
+* Login as external using MitID.
+* Use the activation code.
+* You should be logged into the tenant with `ROLE_EXTERNAL_USER` permissions.
 
+NB! If you are already registered as an external user in the system,
+you will retain the name you were given with the first activation code.
+If you are already added to a tenant, you can be use an activation code to be added to
+another tenant in the top menu: "Tilføj" -> "Område".
 
 ---
 
