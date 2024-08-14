@@ -6,6 +6,13 @@ nav_order: 5
 
 # Changelog
 
+## 2024-08-14
+
+- Added testing guide to docs: https://os2display.github.io/display-docs/content_structure/test_guide.html.
+- Released admin `2.0.3`. See [changelog](https://github.com/os2display/display-admin-client/blob/develop/CHANGELOG.md#203---2024-08-14).
+- Released client `2.0.4`. See [changelog](https://github.com/os2display/display-client/blob/develop/CHANGELOG.md#204---2024-08-14).
+- Released template `2.0.1`. See [changelog](https://github.com/os2display/display-templates/blob/develop/CHANGELOG.md#201---2024-08-14).
+
 ## 2024-06-28
 
 - Released api `2.0.6`. See [changelog](https://github.com/os2display/display-api-service/blob/develop/CHANGELOG.md#206---2024-06-28).
