@@ -103,7 +103,7 @@ have been added to the installation.
   * Navigate to `/admin/slide/create`.
   * Fill "Slidets navn".
   * Select "Anmeldelse" from "Vælg en skabelon til dit slide".
-  * Fill "Teksten til anmeldelsen". Use different kinds of formatting available in the test editor.
+  * Fill "Teksten til anmeldelsen". Use different kinds of formatting available in the text editor.
   * Upload an image under "Billede".
   * Fill "Forfattertekst"
   * Upload an image under "Billede".
