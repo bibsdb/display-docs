@@ -200,33 +200,38 @@ An example of planning can be "every monday at 12:00" with a duration of 1 hour.
   * Confirm sure the slide is displayed in the client `/client`.
 * Playlist publishing
   * Repeat the steps from "Slide publishing" for the playlist.
+* Playlist slide ordering.
+  * Add several slides with different publishing dates set, to the playlist.
+    Try different scenarios, where the slide is published now, in the future, in the past.
+  * See how the fields "Udgivelse fra", "Udgivelse til", "Status" reflect the publishing dates set for the slides in the
+    list "Afspilningsrækkefølge".
+  * Try to change order of the slides in "Afspilningsrækkefølge" by clicking the "↓" arrows.
+  * See that the order is sorted according to "Udgivelse til" or "Status".
 * Playlist planning
   * Click "Tilføj" under "Planning" in the playlist (`/admin/playlist/edit/[ID]`).
   * NB! Planning is handled by setting up a RRule.
-  * Click "Vis detaljer" to see the next 5 occurences of the rule that is set up.
-  * Test different setups for "Frekvens".
+  * Test different setups for "Gentag".
     * For each scenario:
-      * Choose a duration of 1 hour in "Forekomsternes varighed"
+      * Choose "Start" and "Slut" so the occurrence will have a duration of 1 hour.
+      * Click "Gentag planlægning" to set up repetition rules.
       * Test that the rule applies to the playlist by creating a scenario where the playlist should be shown.
       * Save the playlist.
       * Open the client at `/client` and see that playlist is shown.
       * Change the planning to a scenario where it should not be shown.
       * Save the playlist.
       * Open the client at `/client` and see that playlist is NOT shown.
-    * Select "År" for "Frekvens".
-      * Select a date for "Startdato"
-      * See that the occurrences will be the every year at the given "Startdato" in "Vis detaljer".
+    * Select "År" for "Gentag".
+      * See that the occurrences will be the every year at the given "Start" in the list of coming occurrences.
       * Select "Valgte ugedage"
-    * Select "År" for "Frekvens".
-      * Select a date for "Startdato"
+    * Select "År" for "Gentag".
       * Select "Mandag" in "Valgte ugedage".
       * Select 5 in "Ugenummer".
       * See that the occurrences will be every year on monday in week 5.
-    * Select "Måned" for "Frekvens".
-      * Select a date for "Startdato"
+    * Select "Måned" for "Gentag".
       * Select some months in "Valgte måneder"
-      * See that the occurrences will be the selected months at the given date selected "Startdato" in "Vis detaljer".
-    * Select "Uge" for "Frekvens".
+      * See that the occurrences will be the selected months at the given time from "Start" in the list of coming
+        occurrences.
+    * Select "Uge" for "Gentag".
       * Select a couple of days in "Valgte ugedage".
       * See that the occurrences are weekly occurrences on the selected days.
 ---
