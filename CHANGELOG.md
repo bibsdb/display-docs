@@ -6,6 +6,10 @@ nav_order: 5
 
 # Changelog
 
+## 2024-09-04
+
+* Added test guides for the remaining templates.
+
 ## 2024-08-14
 
 - Added testing guide to docs: [https://os2display.github.io/display-docs/content_structure/test_guide.html](https://os2display.github.io/display-docs/content_structure/test_guide.html).

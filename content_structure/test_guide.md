@@ -100,6 +100,7 @@ have been added to the installation.
 ### Steps
 
 * "Anmeldelse" (expected result [anmeldelse.png](../assets/templates/anmeldelse.png))
+  * `Use Case: Show a review of book, film, etc.`
   * Navigate to `/admin/slide/create`.
   * Fill "Slidets navn".
   * Select "Anmeldelse" from "Vælg en skabelon til dit slide".
@@ -109,6 +110,7 @@ have been added to the installation.
   * Upload an image under "Billede".
   * Click "Gem slide"
 * "Billede og tekst" (expected result [billede-og-tekst.png](../assets/templates/billede-og-tekst.png))
+  * `Use Case: Show image(s) and/or text.`
   * Navigate to `/admin/slide/create`.
   * Fill "Slidets navn".
   * Select "Billede og tekst" from "Vælg en skabelon til dit slide".
@@ -121,6 +123,7 @@ have been added to the installation.
   * NB! The settings regarding logo are dependent on setting a theme with a theme logo. This will be tested in T4.
   * Click "Gem slide".
 * "Iframe" (expected result [iframe.png](../assets/templates/iframe.png))
+  * `Use Case: Show content from an external url.`
   * Navigate to `/admin/slide/create`.
   * Fill "Slidets navn".
   * Select "Iframe" from "Vælg en skabelon til dit slide".
@@ -128,6 +131,7 @@ have been added to the installation.
   * Open the preview and see that the webpage pointed to is shown in the slide.
   * Click "Gem slide".
 * "Instagram feed"
+  * `Use Case: Show data from an instagram feed.`
   * NB! This guide assumes that a feed source supplying "instagram" data being installed for the selected tenant.
   * NB! The feed will not supply data until after the slide has been saved, so it cannot be previewed before saving the
     slide.
@@ -139,6 +143,7 @@ have been added to the installation.
   * Fill "Hashtag-tekst".
   * Click "Gem slide".
 * "Kalender"
+  * `Use Case: Show calendar events in different layouts.`
   * NB! This guide assumes that a feed source supplying "calendar" data has been installed for the selected tenant.
   * NB! The feed will not supply data until after the slide has been saved, so it cannot be previewed before saving the
     slide.
@@ -153,19 +158,93 @@ have been added to the installation.
   * Open the slide again.
   * Test different layouts and settings. See the effects in the preview.
 * "Kontakter"
-  * TODO
+  * `Use Case: Display a list of people available for contact.`
+  * Navigate to `/admin/slide/create`.
+  * Fill "Slidets navn".
+  * Select "Kontakter" from "Vælg en skabelon til dit slide".
+  * Click "Tilføj kontakt"
+  * Add an image.
+  * Fill the fields: "Titel", "Navn", "Telefonnummer", "E-mail".
+  * Add a few more contacts.
+  * Save the slide.
+  * See that the data is displayed correctly.
 * "Plakat"
-  * TODO
-* "Rejseplanen"
-  * TODO
+  * `Use Case: Display a poster for an event`
+  * NB! This guide assumes that a feed source supplying "poster" data has been installed for the selected tenant.
+  * The slide can be configured to show a single occurrence of an event, or subscribe to events for given selections.
+  * Navigate to `/admin/slide/create`.
+  * Fill "Slidets navn".
+  * Select "Plakat" from "Vælg en skabelon til dit slide".
+  * Select the data source.
+  * Click "Enkelt" in "Vælg visningstype".
+  * Search for an event.
+  * Click the event.
+  * If more than one occurrence appears, select one of them.
+  * Save the slide.
+  * See that the event is displayed.
+  * Try to override the different fields with "Vis overskrivningsmuligheder".
+  * Create a new "Plakat" slide.
+  * Click "Abonnement" in "Vælg visningstype".
+  * Test the different filters. Find a case where multiple events appear.
+  * Save the slide.
+  * See that the expected events are shown in the slide.
+* "Rejseplanen" (expected result [rejseplanen.png](../assets/templates/rejseplanen.png))
+  * `Use Case: Show which public transportation is available from a given location with rejseplanen.dk.`
+  * NB! This guide assumes that the admin has been configured with a valid rejseplanen api key. See example config:
+    https://github.com/os2display/display-admin-client/blob/develop/public/example_config.json#L4
+  * NB! The part that displays departures is an iframe from rejseplanen from the stops selected. 
+  * Navigate to `/admin/slide/create`.
+  * Fill "Slidets navn".
+  * Select "Rejseplanen" from "Vælg en skabelon til dit slide".
+  * Fill the different text fields.
+  * Add a map of how to get to the stop.
+  * Find a stop with "Vælg stoppested".
+  * Fill "Antal afgange der skal vises" and "Er det valgte stoppested bus eller letbane".
+  * Save the slide.
+  * See that the slide displays the expected content.
 * "RSS"
-  * TODO
+  * `Use Case: Display latest news from an RSS feed.`
+  * NB! This guide assumes that a feed source supplying "rss" data has been installed for the selected tenant.
+  * Navigate to `/admin/slide/create`.
+  * Fill "Slidets navn".
+  * Select "Rss" from "Vælg en skabelon til dit slide".
+  * Select the data source from the dropdown.
+  * Fill an rss feed url into "Kilde". E.g. https://www.dr.dk/nyheder/service/feeds/senestenyt
+  * Fill 5 into "Antal indgange" and "Varighed pr. indgang".
+  * Select a background image and a text size.
+  * Save the slide.
+  * See that data is displayed in the slide. 
 * "Slideshow"
-  * TODO
+  * `Use Case: Display multiple images after each other with transitions between.`
+  * Navigate to `/admin/slide/create`.
+  * Fill "Slidets navn".
+  * Select "Slideshow" from "Vælg en skabelon til dit slide".
+  * Upload multiple images.
+  * Select "Varighed pr. billede".
+  * Choose "Zoom mod midten" from "Vælg animation".
+  * Choose "Cross fade" from "Vælg overgang".
+  * Save the slide.
+  * See that the expected result is displayed in the slide.
+  * Experiment with different animations and transitions.
 * "Tabel"
-  * TODO
+  * `Use Case: Display tabel data, which is manually created or supplied by an API endpoint.`
+  * Navigate to `/admin/slide/create`.
+  * Fill "Slidets navn".
+  * Select "Tabel" from "Vælg en skabelon til dit slide".
+  * Create multiple columns and rows with the tool under "Indtast tabeldata".
+  * See that the data is presented correctly.
 * "Video"
-  * TODO
+  * `Use Case: Show an uploaded video.`
+  * NB! For the video to autoplay with sound the browser has to be configured to allow this.
+    See https://developer.chrome.com/blog/autoplay.
+  * Navigate to `/admin/slide/create`.
+  * Fill "Slidets navn".
+  * Select "Video" from "Vælg en skabelon til dit slide".
+  * Upload a video.
+  * Save the slide.
+  * See that the video is played back without sound.
+  * Activate "Afspil lyd" and save.
+  * See that the video is played back with sound.
 * Follow the steps from T1 for adding the slides to a playlist and screen.
 * See that the templates display correctly.
 
