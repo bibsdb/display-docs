@@ -11,7 +11,7 @@ aux_links:
   "github.com/os2display":
       - "//github.com/os2display"
   "os2.eu/os2display":
-    - "www.os2.eu/os2display"
+    - "//www.os2.eu/os2display"
 
 mermaid:
   # Version of mermaid library
