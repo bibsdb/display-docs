@@ -496,14 +496,14 @@ When it is shared it can be displayed in another tenant, but not edited.
 
 Feed sources are the link between external data source and slides. An example is the RSS feed.
 When creating a slide with the RSS template a feed source ("datakilde") needs to be selected.
-After the feed source has been selected it is possible to input the url to the rss feed to show data from.
+After the feed source has been selected it is possible to input the url to the RSS feed to show data from.
 The feed source contains the code that calls the external source and converts data to a format the RSS template
 understands.
 
 Feed sources are connected to a tenant. New feed sources can be connected to a tenant in through the
 "Datakilde" link in the navigation.
 
-The following guide describes how add a "calendar api" feed source to a tenant.
+The following guide describes how to add a "calendar api" feed source to a tenant.
 
 NB! The calendar api feed source has some installation requirements that are assumed to have been set up.
 See the [documentation](https://github.com/os2display/display-api-service/blob/develop/docs/calender-api-feed.md) for
@@ -517,8 +517,8 @@ to deliver data to the slide.
 
 * Go to `/admin/feed-sources/list`.
 * Click "Opret ny datakilde" (`/admin/feed-sources/create`).
-* Select a name (e.g. "My calendar feed") and description for the feed source.
-* Selected "Kalender feed" for "Type".
+* Select a name (e.g. "My calendar feed") and add a description of the feed source.
+* Select "Kalender feed" for "Type".
 * It will display "Bemærk! Datakilden skal gemmes før der kan tilkobles lokationer. Gem og åbn datakilden igen.".
 * Save with "Gem datakilde".
 * Reopen the feed source from the list.
