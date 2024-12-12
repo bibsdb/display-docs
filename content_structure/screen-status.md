@@ -37,7 +37,7 @@ Furthermore, the section "Tilkobling" will show the following data:
 ```text
 * Seneste kommunikation: 14/12 2024 11:35
 * Version: 1.0.9
-* Udgivelsestidspunkt: 17/6 2024 17:26
+* Kodeudgivelsestidspunkt: 17/6 2024 17:26
 ```
 
 This shows when the latest communication has occured, what client version the machine is running,
