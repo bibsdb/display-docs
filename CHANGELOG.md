@@ -9,6 +9,8 @@ nav_order: 5
 ## 2025-01-14
 
 * Released api `2.1.4`. See [changelog](https://github.com/os2display/display-api-service/blob/develop/CHANGELOG.md#214---2025-01-14).
+* Released client `2.1.2`. See [changelog](https://github.com/os2display/display-client/blob/develop/CHANGELOG.md#212---2024-11-20).
+* Released templates `2.1.1`. See [changelog](https://github.com/os2display/display-templates/blob/develop/CHANGELOG.md#211---2024-11-20).
 
 ## 2024-09-04
 
