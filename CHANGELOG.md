@@ -6,6 +6,10 @@ nav_order: 5
 
 # Changelog
 
+## 2025-01-14
+
+* Released api `2.1.4`. See [changelog](https://github.com/os2display/display-api-service/blob/develop/CHANGELOG.md#214---2025-01-14).
+
 ## 2024-09-04
 
 * Added test guides for the remaining templates.
