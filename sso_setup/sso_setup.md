@@ -19,7 +19,7 @@ This guide consists of these topics
 <a name="setup_in_os2display"></a>
 ## Setup in OS2display
 
-In the file "**.env.local**", which is located in the "**/var/www/DOMAIN-TO-OS2DISPLAY/public/**" folder, the following variables must be filled in with values ​​that you get from either Azure or OS2faktor \- depending on which of these solutions you choose to use to create SSO.
+In the file "**.env.local**", the following variables must be filled in with values ​​that you get from either Azure or OS2faktor \- depending on which of these solutions you choose to use to create SSO.
 
 * **INTERNAL\_OIDC\_METADATA\_URL**  
   This is filled in with the link to metadata.
