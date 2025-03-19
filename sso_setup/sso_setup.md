@@ -1,4 +1,11 @@
-# SSO setup in OS2display
+---
+title: SSO Setup
+layout: default
+nav_order: 4
+has_children: false
+---
+
+# SSO setup
 
 This documentation will guide you through the setup of Single Sign-On (hereinafter SSO) in OS2display.
 
