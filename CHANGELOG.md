@@ -6,6 +6,12 @@ nav_order: 5
 
 # Changelog
 
+## 2025-03-24
+
+* Released api `2.3.0`. See [changelog](https://github.com/os2display/display-api-service/blob/2.3.0/CHANGELOG.md#230---2025-03-24).
+* Released admin `2.3.0`. See [changelog](https://github.com/os2display/display-admin-client/blob/2.3.0/CHANGELOG.md#230---2025-03-24).
+* Released templates `2.3.0`. See [changelog](https://github.com/os2display/display-templates/blob/2.3.0/CHANGELOG.md#230---2025-03-24).
+
 ## 2025-03-17
 
 * Released api `2.2.0`. See [changelog](https://github.com/os2display/display-api-service/blob/develop/CHANGELOG.md#220---2025-03-17).
