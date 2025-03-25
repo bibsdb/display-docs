@@ -8,10 +8,10 @@ nav_order: 5
 
 ## Unreleased changes (currently in test)
 
-* [API](https://github.com/os2display/display-api-service/blob/develop/CHANGELOG.md#unreleased).
-* [Admin](https://github.com/os2display/display-admin-client/blob/develop/CHANGELOG.md#unreleased).
-* [Client](https://github.com/os2display/display-client/blob/develop/CHANGELOG.md#unreleased).
-* [Templates](https://github.com/os2display/display-templates/blob/develop/CHANGELOG.md#unreleased).
+* [API](https://github.com/os2display/display-api-service/blob/develop/CHANGELOG.md#unreleased)
+* [Admin](https://github.com/os2display/display-admin-client/blob/develop/CHANGELOG.md#unreleased)
+* [Client](https://github.com/os2display/display-client/blob/develop/CHANGELOG.md#unreleased)
+* [Templates](https://github.com/os2display/display-templates/blob/develop/CHANGELOG.md#unreleased)
 
 ## 2025-03-24
 
