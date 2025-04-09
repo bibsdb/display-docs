@@ -506,8 +506,8 @@ Feed sources are connected to a tenant. New feed sources can be connected to a t
 The following guide describes how to add a "calendar api" feed source to a tenant.
 
 NB! The calendar api feed source has some installation requirements that are assumed to have been set up.
-See the [documentation](https://github.com/os2display/display-api-service/blob/develop/docs/calender-api-feed.md) for
-further information.
+See the [documentation](https://github.com/os2display/display-api-service/blob/develop/docs/feed/calender-api-feed.md)
+for further information.
 
 With the calendar api feed source the administrator should select which locations are connected with the given tenant.
 When creating a slide with the given feed source, the resources that belong to the given locations are available
