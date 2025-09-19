@@ -12,11 +12,11 @@ This documentation will guide you through the setup of Single Sign-On (hereinaft
 OS2display supports SSO via OpenID Connect, which both Azure and OS2faktor can use. You will find guides for setup in both Azure and OS2faktor further down in this documentation.
 
 This guide consists of these topics
-* [Setup in OS2display](sso_setup.md#setup_in_os2display)
-* [Setup in Azure](sso_setup.md#setup_in_azure)
-* [Setup in OS2faktor](sso_setup.md#setup_in_os2faktor)
+* [Setup in OS2display](sso_setup.md#setup-in-os2display)
+* [Setup in Azure](sso_setup.md#setup-in-azure)
+* [Setup in OS2faktor](sso_setup.md#setup-in-os2faktor)
 
-<a name="setup_in_os2display"></a>
+<a name="setup-in-os2display"></a>
 ## Setup in OS2display
 
 In the file "**.env.local**", the following variables must be filled in with values ​​that you get from either Azure or OS2faktor \- depending on which of these solutions you choose to use to create SSO.
@@ -49,7 +49,7 @@ If a tenant has not been created and a user who has this tenant logs in, it will
 
 It may happen that when you log in and return to OS2display, you are greeted by a completely white screen instead of the option to choose between departments/tenants. We have not been able to provoke this error with a specific action. We have only seen this if a correction has been made to a user (e.g. if a new right is assigned or removed - but not every time one of the parts is done). This can be resolved by pressing CTRL \+ F5.
 
-<a name="setup_in_azure"></a>
+<a name="setup-in-azure"></a>
 ## Setup in Azure
 
 This guide describes how to set up the OS2display service provider in Azure. The guide is aimed at IT administrators who need to ensure the correct configuration of the integration between OS2display and Azure.
@@ -94,7 +94,7 @@ If a user is to have rights to multiple areas in OS2display, the user must be as
 
 ![Azure 10](azure10.jpg)
 
-<a name="setup_in_os2faktor"></a>
+<a name="setup-in-os2faktor"></a>
 ## Setup in OS2faktor
 
 This guide describes how to set up the service provider OS2display in OS2faktor. The guide is aimed at IT administrators who must ensure correct configuration of the integration between OS2display and OS2faktor.
