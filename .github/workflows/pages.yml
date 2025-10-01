@@ -67,9 +67,9 @@ jobs:
           value: '/${{ steps.github-pages.outputs.directory }}'
           commitChange: false
       - name: Build Jekyll site
-        run: bundle install && bundle exec jekyll build --destination ${{ env.BUILD_DIR }} --baseurl "/${{ steps.github-pages.outputs.directory }}"
-        env:
-          JEKYLL_ENV: production
+        uses: actions/jekyll-build-pages@v1
+        with:
+          destination: ${{ env.BUILD_DIR }}
       - name: Start deployment
         uses: bobheadxi/deployments@v1
         id: deployment
