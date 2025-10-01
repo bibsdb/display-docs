@@ -60,7 +60,7 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
       - name: Set Jekyll base url
-        uses: fjogeleit/yaml-update-action@v0.13.3
+        uses: fjogeleit/yaml-update-action@main
         with:
           valueFile: '_config.yml'
           propertyPath: 'baseurl'
