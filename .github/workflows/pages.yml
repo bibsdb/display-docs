@@ -1,11 +1,10 @@
-name: Deploy Jekyll site for all branches to Pages
+name: GitHub Pages
 
 on:
   push:
     branches: ["*"]
   delete:
     branches: ["*"]
-  workflow_dispatch:
 
 env:
   GITHUB_PAGES_BRANCH: "gh-pages"
@@ -25,7 +24,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
       - name: Prepare documentation root
         run: |
           mkdir -p ${{ env.GITHUB_PAGES_ROOT_DIR }}
@@ -58,13 +57,13 @@ jobs:
           fi
       - name: Configure GitHub Pages
         id: pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v3
       - name: Set Jekyll base url
         uses: fjogeleit/yaml-update-action@main
         with:
           valueFile: '_config.yml'
           propertyPath: 'baseurl'
-          value: '/${{ steps.github-pages.outputs.directory }}'
+          value: '/${{ env.REPO_NAME }}/${{ steps.github-pages.outputs.directory }}'
           commitChange: false
       - name: Build Jekyll site
         uses: actions/jekyll-build-pages@v1
@@ -107,10 +106,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
         with:
           ref: ${{ env.GITHUB_PAGES_BRANCH }}
-      # We cannot use tj-actions/branch-names to get the name of the deleted branch as it will already be deleted when this runs.
+      # We cannot use tj-actions/branch-names to get the name of the deleted
+      # branch as it will already be deleted when this runs.
       - name: Delete preview site
         run: |
           rm -rf ${{ env.PREVIEW_SUBDIR }}/${{ github.event.ref }}
